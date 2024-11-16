@@ -12,7 +12,7 @@ from xgboost import Booster
 # Load the model
 try:
     xgb_model = Booster()
-    xgb_model.load_model("G:\Malk\Qafza\Malk Al-Jarrah_Task2\Model_Social_Net\Model\Data\Social_Network_Ads.csv")
+    xgb_model.load_model("G:\Malk\Qafza\Malk Al-Jarrah_Task2\Dep_FastApi_Network\Model\xgb_model.json")
 except Exception as e:
     raise RuntimeError(f"Failed to load model: {e}")
 

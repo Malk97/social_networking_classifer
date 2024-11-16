@@ -4,7 +4,7 @@ import joblib
 from sklearn import preprocessing, model_selection
 import xgboost as xgb
 
-data = pd.read_csv('Data/Social_Network_Ads.csv')
+data = pd.read_csv('DataSet/Social_Network_Ads.csv')
 
 data.drop_duplicates(inplace=True)
 data.drop(columns = ['User ID'], inplace = True)
