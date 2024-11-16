@@ -1,5 +1,5 @@
 
-# Social Network Ads Prediction API
+# Social Network Ads Prediction
 
 This repository contains a machine learning-based API for predicting whether a user will purchase a product based on their demographic and salary details. The project includes data preprocessing, model training, and deployment using FastAPI and Docker.
 
