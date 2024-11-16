@@ -3,6 +3,12 @@
 
 This repository contains a machine learning-based API for predicting whether a user will purchase a product based on their demographic and salary details. The project includes data preprocessing, model training, and deployment using FastAPI and Docker.
 
+## Docker Hub
+To use the prebuilt Docker image, run:
+```bash
+docker pull malk37/social_network:latest
+```
+
 ## Features
 - Preprocess data using `pandas` and `scikit-learn`
 - Train a classification model with XGBoost
@@ -75,11 +81,7 @@ Ensure you have the following installed:
 
 - `prediction`: 1 indicates purchase, 0 indicates no purchase.
 
-## Docker Hub
-To use the prebuilt Docker image, run:
-```bash
-docker pull malk37/social_network:latest
-```
+
 
 ## Resources
 - [Push a Docker Image to Docker Hub](https://www.youtube.com/watch?v=EIHY_CY5J0k)
