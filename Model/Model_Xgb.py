@@ -24,4 +24,4 @@ x_train, x_test, y_train, y_test = model_selection.train_test_split(x_norm, y, t
 xgb_model = xgb.XGBClassifier()
 xgb_model.fit(x_train, y_train)
 
-joblib.dump(xgb_model,'xgb_model.joblib')
+joblib.dump(xgb_model,'xgb_model.json')
