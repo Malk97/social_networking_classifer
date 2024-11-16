@@ -5,10 +5,6 @@ import uvicorn
 import numpy as np
 from xgboost import Booster
 
-
-
-
-
 # Load the model
 try:
     xgb_model = Booster()
